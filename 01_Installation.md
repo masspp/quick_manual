@@ -7,28 +7,36 @@ installed separately.
 ##  Downloading the installer
 
 1. Open the Mass++ website: <https://mspp.ninja/>
-2. Click **Downloads** in the menu at the top of the page. It opens the
-   Mass++/Mass++4 portal at <https://develop.mspp.ninja/>.
-3. Go to **Binary package (Installer) downloads** -> **Current (Latest)
+   Click **Downloads** in the menu at the top of the page.
+
+   ![Top page of the Mass++ website](images/screenshots/01-01-mspp_top.png)
+
+2. The Mass++/Mass++4 portal at <https://develop.mspp.ninja/> opens.
+   Go to **Binary package (Installer) downloads** -> **Current (Latest)
    version**, and click the **Download page** link of the
-   *Ver.4 (Mass++4) Series (Latest Build)*. It opens the
-   [Mass++4 Executable File Download](https://mspp.ninja/mass4-executable-file-download/)
-   page.
-4. Under **Download of the installer**, find **Mass++4 ver.1.0.0** and click the
-   download button of the package for your platform.
+   *Ver.4 (Mass++4) Series (Latest Build)*.
+
+   ![Binary package downloads on the portal](images/screenshots/01-02-develop_mspp.png)
+
+3. The [Mass++4 Executable File Download](https://mspp.ninja/mass4-executable-file-download/)
+   page opens. Under the latest version at the top of the page, click the
+   download button (ダウンロード) of the package for your platform.
+   The screenshot below shows ver.1.0.0 as an example.
+
+   ![Installer list on the download page](images/screenshots/01-03-downloadpage.png)
 
 | Platform | Package on the page | Format |
 | --- | --- | --- |
-| Windows | `Mass++4 1.0 (Windows)` | `.zip` (zipped `.exe`) |
-| macOS | `Mass++4 1.0 (MacOS)` | `.dmg` |
-| Debian / Ubuntu | `Mass++4 1.0 (Linux-Debian/Ubuntu)` | `.deb` |
-| RHEL / AlmaLinux and other RPM distributions | `Mass++4 1.0 (Linux-RPM)` | `.rpm` |
+| Windows | `Mass++4 <version> (Windows)` | `.zip` (zipped `.exe`) |
+| macOS | `Mass++4 <version> (MacOS)` | `.dmg` |
+| Debian / Ubuntu | `Mass++4 <version> (Linux-Debian/Ubuntu)` | `.deb` |
+| RHEL / AlmaLinux and other RPM distributions | `Mass++4 <version> (Linux-RPM)` | `.rpm` |
 
-Older builds (ver.0.2.1 and earlier) are listed further down the same page under
-*[Mass++4 Installer - Previous Versions]*. Mass++ ver.2 has its own download
-page and is not covered by this manual.
+The packages for Linux are listed below the ones shown above, further down the
+same page. Older builds follow under *[Mass++4 Installer - Previous Versions]*,
+and Mass++ ver.2 has its own download page. Neither is covered by this manual.
 
-The same installers are also attached to the release in the source repository:
+The same installers are also attached to the releases in the source repository:
 <https://github.com/masspp/mspp4-desktop/releases>
 
 ##  Windows
@@ -50,18 +58,20 @@ developer, right-click the application icon, choose `Open`, and confirm.
 
 ##  Debian / Ubuntu
 
-Install the downloaded package:
+Install the downloaded package. Replace `<version>` with the version in the file
+name.
 
 ```bash
-sudo apt install ./ms++4_1.0.0_amd64.deb
+sudo apt install ./ms++4_<version>_amd64.deb
 ```
 
 ##  RHEL / AlmaLinux
 
-Install the downloaded package:
+Install the downloaded package. Replace `<version>` with the version in the file
+name, and use the package for your major version (`alma9` or `alma10`).
 
 ```bash
-sudo dnf install ./ms++4-1.0.0-1.alma9.x86_64.rpm
+sudo dnf install ./ms++4-<version>-1.alma9.x86_64.rpm
 ```
 
 ##  Opening vendor raw files (optional)
@@ -74,8 +84,8 @@ ProteoWizard `msconvert` inside a Docker container.
 <https://www.docker.com/products/docker-desktop/>
 
 The first conversion downloads the converter image, so it takes longer than
-later ones. If Docker is not running, Mass++4 shows a message asking you to
-start Docker Desktop.
+later ones. If Docker is not running when you open such a file, Mass++4 shows a
+message asking you to start Docker Desktop.
 
 ##  Building from source
 
