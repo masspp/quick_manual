@@ -7,23 +7,26 @@ Mass++4 は、プラットフォームごとにすぐにインストールでき
 ##  インストーラのダウンロード
 
 1. Mass++ のウェブサイト <https://mspp.ninja/> を開きます。
-   ページ上部のメニューにある **Downloads** をクリックします。
+   英語で表示された場合は、メニューの **Japanese** をクリックすると日本語で表示
+   されます。ページ上部のメニューにある **ダウンロード** をクリックします。
 
-   ![Mass++ ウェブサイトのトップページ](images/screenshots/01-01-mspp_top.png)
+   ![Mass++ ウェブサイトのトップページ](images/screenshots/01-01-mspp_top-ja.png)
 
-2. Mass++/Mass++4 のポータル <https://develop.mspp.ninja/> が開きます。
-   **Binary package (Installer) downloads** -> **Current (Latest) version** に進み、
-   *Ver.4 (Mass++4) Series (Latest Build)* の **Download page** リンクをクリック
-   します。
+2. Mass++/Mass++4 のポータル <https://develop.mspp.ninja/README.jpn.html> が開き
+   ます。**実行形式パッケージ（インストーラー）・ダウンロード** ->
+   **現行（最新）バージョン** に進み、*Ver.4（Mass++4）系列（最新ビルド）* の
+   **ダウンロードページ** リンクをクリックします。
 
-   ![ポータルのバイナリパッケージのダウンロード](images/screenshots/01-02-develop_mspp.png)
+   ![ポータルのバイナリパッケージのダウンロード](images/screenshots/01-02-develop_mspp-ja.png)
 
-3. [Mass++4 Executable File Download](https://mspp.ninja/mass4-executable-file-download/)
-   ページが開きます。ページ先頭の最新版から、お使いのプラットフォームのパッケージの
-   「ダウンロード」ボタンをクリックします。
-   下のスクリーンショットは、ver.1.0.0 の例です。
+3. [Mass++4 実行ファイルダウンロード](https://mspp.ninja/mass4-%e5%ae%9f%e8%a1%8c%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89/)
+   ページが開きます。ページの冒頭には、Mass++ を使った結果を発表するときに引用する
+   論文も記載されています。
 
-   ![ダウンロードページのインストーラ一覧](images/screenshots/01-03-downloadpage.png)
+   ![Mass++4 実行ファイルダウンロードページ](images/screenshots/01-03-download-page-ja.png)
+
+4. 下にスクロールして **インストーラーのダウンロード** に進み、最新版から、お使いの
+   プラットフォームのパッケージの **ダウンロード** ボタンをクリックします。
 
 | プラットフォーム | ページ上のパッケージ | 形式 |
 | --- | --- | --- |
@@ -32,8 +35,7 @@ Mass++4 は、プラットフォームごとにすぐにインストールでき
 | Debian / Ubuntu | `Mass++4 <version> (Linux-Debian/Ubuntu)` | `.deb` |
 | RHEL / AlmaLinux などの RPM 系ディストリビューション | `Mass++4 <version> (Linux-RPM)` | `.rpm` |
 
-Linux 用のパッケージは、上のスクリーンショットに写っているものより下、同じページの
-さらに下にあります。古いビルドはその下の *[Mass++4 Installer - Previous Versions]*
+古いビルドは、同じページのさらに下にある *【Mass++4インストーラー・過去のバージョン】*
 に、Mass++ ver.2 は別のダウンロードページにあります。どちらもこのマニュアルの対象外
 です。
 

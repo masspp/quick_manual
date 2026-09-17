@@ -16,14 +16,16 @@ installed separately.
    version**, and click the **Download page** link of the
    *Ver.4 (Mass++4) Series (Latest Build)*.
 
-   ![Binary package downloads on the portal](images/screenshots/01-02-develop_mspp.png)
+   ![Binary package downloads on the portal](images/screenshots/01-02-develop_mspp-en.png)
 
 3. The [Mass++4 Executable File Download](https://mspp.ninja/mass4-executable-file-download/)
-   page opens. Under the latest version at the top of the page, click the
-   download button (ダウンロード) of the package for your platform.
-   The screenshot below shows ver.1.0.0 as an example.
+   page opens. The top of the page also shows the Mass++ paper to cite when you
+   publish results obtained with Mass++.
 
-   ![Installer list on the download page](images/screenshots/01-03-downloadpage.png)
+   ![Mass++4 Executable File Download page](images/screenshots/01-03-download-page-en.png)
+
+4. Scroll down to **Download of the installer**. Under the latest version, click
+   **Download** of the package for your platform.
 
 | Platform | Package on the page | Format |
 | --- | --- | --- |
@@ -32,9 +34,9 @@ installed separately.
 | Debian / Ubuntu | `Mass++4 <version> (Linux-Debian/Ubuntu)` | `.deb` |
 | RHEL / AlmaLinux and other RPM distributions | `Mass++4 <version> (Linux-RPM)` | `.rpm` |
 
-The packages for Linux are listed below the ones shown above, further down the
-same page. Older builds follow under *[Mass++4 Installer - Previous Versions]*,
-and Mass++ ver.2 has its own download page. Neither is covered by this manual.
+Older builds are listed further down the same page under
+*[Mass++4 Installer - Previous Versions]*, and Mass++ ver.2 has its own download
+page. Neither is covered by this manual.
 
 The same installers are also attached to the releases in the source repository:
 <https://github.com/masspp/mspp4-desktop/releases>
