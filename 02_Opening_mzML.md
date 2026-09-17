@@ -4,7 +4,7 @@
 
 1. Choose **File** -> **Open** -> **MS Data...** from the menu bar.
 
-   ![File > Open > MS Data...](images/screenshots/02-01-open_menu.png)
+   ![File > Open > MS Data...](images/screenshots/02-01-open_menu-en.png)
 
 2. Select an `.mzML` file in the file dialog and click `Open`.
    The dialog starts in the folder you used the last time.

@@ -9,7 +9,7 @@ installed separately.
 1. Open the Mass++ website: <https://mspp.ninja/>
    Click **Downloads** in the menu at the top of the page.
 
-   ![Top page of the Mass++ website](images/screenshots/01-01-mspp_top.png)
+   ![Top page of the Mass++ website](images/screenshots/01-01-mspp_top-en.png)
 
 2. The Mass++/Mass++4 portal at <https://develop.mspp.ninja/> opens.
    Go to **Binary package (Installer) downloads** -> **Current (Latest)

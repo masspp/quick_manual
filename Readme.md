@@ -1,5 +1,7 @@
 #  Mass++4 Quick Manual
 
+[日本語版](Readme_ja.md)
+
 A quick manual for [Mass++4](https://mspp.ninja/), an open-source viewer for
 mass spectrometry data. It describes the next release of Mass++4.
 
