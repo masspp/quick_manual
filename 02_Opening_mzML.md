@@ -10,6 +10,20 @@
    The dialog starts in the folder you used the last time.
 3. A progress dialog is shown while the file is read. Large files take a while.
 
+###  Opening files by drag and drop
+
+You can also drag `.mzML` files from Explorer, Finder or a file manager and drop
+them on the Mass++4 window. While you drag them over the window, it shows
+**Drop to open in Mass++4** with the names of the files.
+
+- Several files can be dropped at once. They are opened one after another.
+- Files that are not MS data are skipped, and their names are shown in a
+  message. The overlay also tells you before dropping when such files are
+  included.
+- Thermo `.raw`, Sciex `.wiff` and Shimadzu `.lcd` files can be dropped in the
+  same way. They need Docker Desktop, as described in
+  [Installation](01_Installation.md#opening-vendor-raw-files-optional).
+
 ##  Chromatogram and spectrum
 
 The main window is divided into the tables on the left and the graphs on the
@@ -33,7 +47,11 @@ The tables list, from top to bottom:
   (`RT`), and the vertical axis is the intensity (`Int.`).
 - Click a row of the **Spectrum** table to draw that spectrum in the lower
   graph. The horizontal axis is `m/z`, and the vertical axis is the intensity.
-- The positions of the detected peaks are written above the peaks.
+- While the data of a chromatogram or a spectrum are read, the graph shows
+  **Now Loading...**. You can select other rows meanwhile; the last one you
+  selected is drawn.
+- The positions of the detected peaks are written above the peaks. They appear
+  shortly after the graph, when the peak picking has finished.
 - If the mzML file contains no chromatogram, a TIC (total ion current)
   chromatogram is calculated from the spectra and listed instead.
 
@@ -66,8 +84,8 @@ the intensity.
 
 ![Heatmap tab](images/screenshots/02-05-heatmap.png)
 
-The map is calculated in the background when the sample is selected, so it may
-take a moment to appear. It is drawn from the MS spectra that have a retention
+The map is calculated in the background when the sample is selected. Until it is
+ready, the **Heatmap** and **3D** tabs show **Now Loading...**. It is drawn from the MS spectra that have a retention
 time, and needs at least two of them.
 
 - Drag a rectangle to zoom into that retention time and m/z region.
