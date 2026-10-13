@@ -5,18 +5,10 @@
 
 ##  データファイル
 
-- **対応形式**：**File** -> **Open** -> **MS Data...** で開けるのは、mzML、Thermo
-  `.raw`、Sciex `.wiff`、Shimadzu `.lcd` ファイルです。mzXML、MGF、Bruker `.d`
-  などのほかの形式は直接開けません。ProteoWizard `msconvert` などで、先に mzML に
+- **対応形式**：**File** -> **Open** -> **mzML...** で開けるのは mzML ファイルだけ
+  です。Thermo `.raw`、Sciex `.wiff`、Shimadzu `.lcd`、mzXML、MGF、Bruker `.d`
+  などのほかの形式は開けません。ProteoWizard `msconvert` などで、先に mzML に
   変換してください。
-- **ベンダーファイルには Docker が必要**：`.raw`、`.wiff`、`.lcd` ファイルは、Docker
-  コンテナ内の ProteoWizard `msconvert` で mzML に変換されます。そのため、Docker
-  Desktop をインストールして起動しておく必要があります。初回の変換では変換用の
-  イメージをダウンロードするため、インターネット接続が必要で、時間もかかります。
-  [インストール](01_Installation_ja.md#ベンダーの生データを開く場合)を参照してください。
-- **変換メニュー**：**File** -> **Convert** -> **mzML...** が受け付けるのは `.raw` と
-  `.wiff` ファイルだけです。`.lcd` ファイルは **File** -> **Open** ->
-  **MS Data...** で開いてください。
 - **同じファイルを 2 回開く**：すでに開いているファイルは、もう一度開けません。
 - **サンプルを閉じる**：開いたサンプルは閉じられません。一覧から消すには Mass++4 を
   再起動してください。

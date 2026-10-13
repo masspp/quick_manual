@@ -2,9 +2,9 @@
 
 ##  Opening the file
 
-1. Choose **File** -> **Open** -> **MS Data...** from the menu bar.
+1. Choose **File** -> **Open** -> **mzML...** from the menu bar.
 
-   ![File > Open > MS Data...](images/screenshots/02-01-open_menu-en.png)
+   ![File > Open > mzML...](images/screenshots/02-01-open_menu-en.png)
 
 2. Select an `.mzML` file in the file dialog and click `Open`.
    The dialog starts in the folder you used the last time.
@@ -17,12 +17,9 @@ them on the Mass++4 window. While you drag them over the window, it shows
 **Drop to open in Mass++4** with the names of the files.
 
 - Several files can be dropped at once. They are opened one after another.
-- Files that are not MS data are skipped, and their names are shown in a
+- Files that are not mzML files are skipped, and their names are shown in a
   message. The overlay also tells you before dropping when such files are
   included.
-- Thermo `.raw`, Sciex `.wiff` and Shimadzu `.lcd` files can be dropped in the
-  same way. They need Docker Desktop, as described in
-  [Installation](01_Installation.md#opening-vendor-raw-files-optional).
 
 ##  Chromatogram and spectrum
 

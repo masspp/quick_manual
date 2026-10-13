@@ -76,19 +76,6 @@ name, and use the package for your major version (`alma9` or `alma10`).
 sudo dnf install ./ms++4-<version>-1.alma9.x86_64.rpm
 ```
 
-##  Opening vendor raw files (optional)
-
-Reading `.mzML` files works out of the box. Opening Thermo `.raw`, Sciex
-`.wiff`, or Shimadzu `.lcd` files additionally requires **Docker Desktop** to be
-installed and running, because Mass++4 converts those files to mzML with
-ProteoWizard `msconvert` inside a Docker container.
-
-<https://www.docker.com/products/docker-desktop/>
-
-The first conversion downloads the converter image, so it takes longer than
-later ones. If Docker is not running when you open such a file, Mass++4 shows a
-message asking you to start Docker Desktop.
-
 ##  Building from source
 
 To build Mass++4 yourself instead of using an installer, follow the

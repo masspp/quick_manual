@@ -78,19 +78,6 @@ sudo apt install ./ms++4_<version>_amd64.deb
 sudo dnf install ./ms++4-<version>-1.alma9.x86_64.rpm
 ```
 
-##  ベンダーの生データを開く場合
-
-`.mzML` ファイルは、そのまま読み込めます。Thermo `.raw`、Sciex `.wiff`、Shimadzu
-`.lcd` ファイルを開くには、さらに **Docker Desktop** をインストールして起動しておく
-必要があります。Mass++4 は、これらのファイルを Docker コンテナ内の ProteoWizard
-`msconvert` で mzML に変換するためです。
-
-<https://www.docker.com/products/docker-desktop/>
-
-初回の変換では変換用のイメージをダウンロードするため、2 回目以降より時間がかかり
-ます。Docker が起動していない状態でこれらのファイルを開くと、Docker Desktop を起動
-するよう求めるメッセージが表示されます。
-
 ##  ソースからのビルド
 
 インストーラを使わずに Mass++4 を自分でビルドする場合は、`mspp4-desktop`

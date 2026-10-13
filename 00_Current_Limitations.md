@@ -5,18 +5,10 @@ before you start, together with the other chapters of this manual.
 
 ##  Data files
 
-- **Supported formats**: **File** -> **Open** -> **MS Data...** opens mzML,
-  Thermo `.raw`, Sciex `.wiff` and Shimadzu `.lcd` files. Other formats, such as
-  mzXML, MGF or Bruker `.d`, cannot be opened directly. Convert them to mzML
-  first, for example with ProteoWizard `msconvert`.
-- **Vendor files need Docker**: `.raw`, `.wiff` and `.lcd` files are converted
-  to mzML with ProteoWizard `msconvert` in a Docker container, so Docker Desktop
-  must be installed and running. The first conversion downloads the converter
-  image, which needs an internet connection and takes time. See
-  [Installation](01_Installation.md#opening-vendor-raw-files-optional).
-- **Conversion menu**: **File** -> **Convert** -> **mzML...** accepts only
-  `.raw` and `.wiff` files. To use a `.lcd` file, open it with
-  **File** -> **Open** -> **MS Data...**.
+- **Supported formats**: **File** -> **Open** -> **mzML...** opens mzML files.
+  Other formats, such as Thermo `.raw`, Sciex `.wiff`, Shimadzu `.lcd`, mzXML,
+  MGF or Bruker `.d`, cannot be opened. Convert them to mzML first, for example
+  with ProteoWizard `msconvert`.
 - **Opening the same file twice**: a file that is already open cannot be opened
   again.
 - **Closing samples**: opened samples cannot be closed. Restart Mass++4 to clear
